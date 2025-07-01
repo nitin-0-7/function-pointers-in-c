@@ -7,10 +7,10 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <stdio.h>
-#include <math.h>
+
  int factorial(int x){
         int fact=1;
-        for(int i=2;i<=x;i++){
+        for(int i=2;i<=x;i++){    //ncr=n!/(r!(n-r)!)
             fact=fact*i;
         }
         return fact;
