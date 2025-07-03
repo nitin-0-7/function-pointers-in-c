@@ -9,7 +9,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 #include <stdio.h>
 void primefactor(int x){
     printf("Prime factor of entered no is %d :",x);
-    while(x%2==0){    //for 2s 
+    while(x%2==0){    //print the no of 2s that divide n 
         printf(" 2 ");
         x=x/2;
     }
